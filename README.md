@@ -29,7 +29,6 @@ Ao estudar as estaturas de pais e filhos, Galton observou que filhos de pais com
 Regressão linear é um tipo de algoritmo supervisionado, portanto antes de entender como funciona o algoritmo é importante conhecer o que seria aprendizado supervisionado.
 </br>
 </br>
-</br>
 
 #### Algoritmos Supervisionados
 
