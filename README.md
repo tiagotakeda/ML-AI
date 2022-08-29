@@ -39,6 +39,10 @@ Uma das características mais importantes neste aprendizado é que os dados usad
 Assim como nos algoritmos de classificação onde, primeiramente, nós coletamos os dados que serão utilizados para que a máquina possa procurar por padrões e gerar um modelo, os algoritmos de regressão procuram gerar previsões a partir dos dados coletados e analisados.
 
 Um exemplo claro disso seria uma empresa de seguros. Onde imaginando que ela tenha um banco de dados de todos os seus usuários contendo informações como: idade, sexo, região, quanto cada cliente recebeu de prêmio, entre outras, seja possível gerar um modelo que preveja a quantia que um novo cliente receberá de prêmio do seguro.
+
+Sendo assim, um modelo de machine learning aprende os padrões dos dados e cria matematicamente uma função para gerar previsões.
+
+![Exemplo de função](https://miro.medium.com/max/1288/0*yylfN9osCM_tKhw_)
 </br>
 
 
