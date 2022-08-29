@@ -32,10 +32,6 @@ Regressão linear é um tipo de algoritmo supervisionado, portanto antes de ente
 </br>
 </br>
 
-- Regressão linear simples : refere-se quando temos somente uma variável independente (X) para fazermos a predição.
-
-- Regressão linear múltipla: refere-se a várias variáveis independentes (X)usadas para fazer a predição.
-
 #### Algoritmos Supervisionados
 
 Os **algoritmos supervisionados** podem ser subdivididos em **algoritmos de classificação** e **algoritmos de regressão**.
@@ -52,6 +48,9 @@ Sendo assim, um modelo de machine learning aprende os padrões dos dados e cria 
 </br>
 </br>
 
+- Regressão linear simples : refere-se quando temos somente uma variável independente (X) para fazermos a predição.
+
+- Regressão linear múltipla: refere-se a várias variáveis independentes (X)usadas para fazer a predição.
 
 ### Decision Tree
 
