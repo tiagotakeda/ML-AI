@@ -1,10 +1,10 @@
 # Introdução à Técnicas de Machine Learning e IA
 
-### Objetivo
+## Objetivo
 
 O objetivo final deste material é passar uma visão básica e abrangente sobre as principais técnicas e algoritmos de Machine Learning e Artificial Intelligence.
 
-### Tópicos
+## Tópicos
 
 Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de uma vez só. Portanto vamos nos ater aos modelos mais conhecidos, são eles:
 
@@ -15,11 +15,11 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 - KNN (K Nearest Neighbor)
 - Naive Bayes
 
-#### Regrssão Linear
+### Regrssão Linear
 
 ![Linear Regression](https://miro.medium.com/max/1400/1*JplJixyQxHTRwQvqP7eDrQ.gif)
 
-##### Origem
+#### Origem
 
 O termo 'Regressão' surgiu em 1885 com o antropólogo, matemático e estatístico Francis Galton. Ele aplicava estes conceitos no estudo do corpo humano.
 
@@ -29,13 +29,13 @@ Ao estudar as estaturas de pais e filhos, Galton observou que filhos de pais com
 
 Regressão linear é um tipo de algoritmo supervisionado, portanto antes de entender como funciona o algoritmo é importante conhecer o que seria aprendizado supervisionado.
 
-##### Algoritmos Supervisionados
+#### Algoritmos Supervisionados
 
 Os *algoritmos supervisionados* podem ser subdivididos em *algoritmos de classificação* e *algoritmos de regressão*.
 
 Em resumo a Regressão Linear se resume em um conjunto de multiplicações de matrizes. A complexidade de multiplicar duas matrizes.
 
-#### decision Tree
+### Decision Tree
 
 Primeiro de tudo, é muito importante conhecer bem o seu modelo. Mas, para isso, nós temos esse post aqui para te ensinar o necessário. Depois que você tiver uma ideia, vamos ver como isso funciona. Já deixo claro que é importante o entendimento de árvores binárias para que a seguinte análise flua com mais facilidade.
 
@@ -47,7 +47,7 @@ Além disso, outra coisa que deve ser levada em consideração é o fato que nó
 
 Então vejamos, a complexidade de uma Decision Tree será de O(n * p * d * log(n)), sendo d a profundidade de camadas. Aplicando o que acabamos de descobrir, temos que a complexidade da árvore estará entre algo como O(n * p * log²(n)) e O(n² * p * log(n))
 
-#### Random Forest
+### Random Forest
 
 Se você não está totalmente familiarizado com esse modelo, sugiro esse nosso post.
 
