@@ -52,6 +52,8 @@ Sendo assim, um modelo de machine learning aprende os padrões dos dados e cria 
 
 - Regressão linear múltipla: refere-se a várias variáveis independentes (X)usadas para fazer a predição.
 
+![Tipos de Regressão](https://miro.medium.com/max/1400/1*kYeEvedeSMcI2ppvLSDaKw.png)
+
 ### Decision Tree
 
 Primeiro de tudo, é muito importante conhecer bem o seu modelo. Mas, para isso, nós temos esse post aqui para te ensinar o necessário. Depois que você tiver uma ideia, vamos ver como isso funciona. Já deixo claro que é importante o entendimento de árvores binárias para que a seguinte análise flua com mais facilidade.
