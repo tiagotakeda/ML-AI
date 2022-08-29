@@ -19,7 +19,21 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 
 ![Linear Regression](https://miro.medium.com/max/1400/1*JplJixyQxHTRwQvqP7eDrQ.gif)
 
-Em resumo a Regressão Linear se resume em um conjunto de multiplicações de matrizes. A complexidade de multiplicar duas matrizes, considerando que são dois for's encaixados, é de O(n²)
+##### Origem
+
+O termo 'Regressão' surgiu em 1885 com o antropólogo, matemático e estatístico Francis Galton. Ele aplicava estes conceitos no estudo do corpo humano.
+
+![Francis Galton](https://miro.medium.com/max/386/0*2dl-pJMeOc0F-A5R)
+
+Ao estudar as estaturas de pais e filhos, Galton observou que filhos de pais com altura baixa em relação à média tendem a ser mais altos que seus pais, e filhos de pais com estatura alta em relação à média tendem a ser mais baixos que seus pais, ou seja, as alturas dos seres humanos em geral tendem a regredir à média.
+
+Regressão linear é um tipo de algoritmo supervisionado, portanto antes de entender como funciona o algoritmo é importante conhecer o que seria aprendizado supervisionado.
+
+##### Algoritmos Supervisionados
+
+Os *algoritmos supervisionados* podem ser subdivididos em *algoritmos de classificação* e *algoritmos de regressão*.
+
+Em resumo a Regressão Linear se resume em um conjunto de multiplicações de matrizes. A complexidade de multiplicar duas matrizes.
 
 #### decision Tree
 
