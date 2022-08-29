@@ -33,7 +33,11 @@ Regressão linear é um tipo de algoritmo supervisionado, portanto antes de ente
 
 Os **algoritmos supervisionados** podem ser subdivididos em **algoritmos de classificação** e **algoritmos de regressão**.
 
-Em resumo a Regressão Linear se resume em um conjunto de multiplicações de matrizes. A complexidade de multiplicar duas matrizes.
+Assim como nos algoritmos de classificação onde, primeiramente, nós coletamos os dados que serão utilizados para que a máquina possa procurar por padrões e gerar um modelo, os algoritmos de regressão procuram gerar previsões a partir dos dados coletados e analisados.
+
+Um exemplo claro disso seria uma empresa de seguros. Onde imaginando que ela tenha um banco de dados de todos os seus usuários contendo informações como: idade, sexo, região, quanto cada cliente recebeu de prêmio, entre outras, seja possível gerar um modelo que preveja a quantia que um novo cliente receberá de prêmio do seguro.
+
+
 
 ### Decision Tree
 
