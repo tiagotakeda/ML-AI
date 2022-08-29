@@ -17,7 +17,7 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 
 ### Regrssão Linear
 
->Regressão linear é um algoritmo supervisionado de machine learning usado para estimar o valor de algo baseado em uma série de outros dados históricos, portanto olhando para o passado você pode “prever” o futuro.
+>"Regressão linear é um algoritmo supervisionado de machine learning usado para estimar o valor de algo baseado em uma série de outros dados históricos, portanto olhando para o passado você pode 'prever' o futuro".
 
 ![Linear Regression](https://miro.medium.com/max/1400/1*JplJixyQxHTRwQvqP7eDrQ.gif)
 #### Origem
