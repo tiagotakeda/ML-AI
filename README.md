@@ -23,7 +23,10 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 O termo 'Regressão' surgiu em 1885 com o antropólogo, matemático e estatístico Francis Galton. Ele aplicava estes conceitos no estudo do corpo humano.
 
 <!-- ![Francis Galton](https://miro.medium.com/max/386/0*2dl-pJMeOc0F-A5R) -->
-<img src='https://miro.medium.com/max/386/0*2dl-pJMeOc0F-A5R' alt='Francis Galton' style='align: center;'>
+<img src='https://miro.medium.com/max/386/0*2dl-pJMeOc0F-A5R' alt='Francis Galton' style='display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;'>
 
 Ao estudar as estaturas de pais e filhos, Galton observou que filhos de pais com altura baixa em relação à média tendem a ser mais altos que seus pais, e filhos de pais com estatura alta em relação à média tendem a ser mais baixos que seus pais, ou seja, as alturas dos seres humanos em geral tendem a regredir à média.
 
