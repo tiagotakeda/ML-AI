@@ -45,6 +45,7 @@ Um exemplo claro disso seria uma empresa de seguros. Onde imaginando que ela ten
 Sendo assim, um modelo de machine learning aprende os padrões dos dados e cria matematicamente uma função para gerar previsões.
 
 ![Exemplo de função](https://miro.medium.com/max/1288/0*yylfN9osCM_tKhw_)
+</br>
 
 #### Tipos de Regressão
 
