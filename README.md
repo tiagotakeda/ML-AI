@@ -31,7 +31,7 @@ Regressão linear é um tipo de algoritmo supervisionado, portanto antes de ente
 
 #### Algoritmos Supervisionados
 
-Os *algoritmos supervisionados* podem ser subdivididos em *algoritmos de classificação* e *algoritmos de regressão*.
+Os **algoritmos supervisionados** podem ser subdivididos em **algoritmos de classificação** e **algoritmos de regressão**.
 
 Em resumo a Regressão Linear se resume em um conjunto de multiplicações de matrizes. A complexidade de multiplicar duas matrizes.
 
