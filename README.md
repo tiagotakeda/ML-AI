@@ -46,6 +46,8 @@ Sendo assim, um modelo de machine learning aprende os padrões dos dados e cria 
 
 ![Exemplo de função](https://miro.medium.com/max/1288/0*yylfN9osCM_tKhw_)
 
+#### Tipos de Regressão
+
 - Regressão linear simples : refere-se quando temos somente uma variável independente (X) para fazermos a predição.
 
 - Regressão linear múltipla: refere-se a várias variáveis independentes (X)usadas para fazer a predição.
