@@ -27,6 +27,7 @@ O termo 'Regressão' surgiu em 1885 com o antropólogo, matemático e estatísti
 Ao estudar as estaturas de pais e filhos, Galton observou que filhos de pais com altura baixa em relação à média tendem a ser mais altos que seus pais, e filhos de pais com estatura alta em relação à média tendem a ser mais baixos que seus pais, ou seja, as alturas dos seres humanos em geral tendem a regredir à média.
 
 Regressão linear é um tipo de algoritmo supervisionado, portanto antes de entender como funciona o algoritmo é importante conhecer o que seria aprendizado supervisionado.
+</br>
 
 #### Algoritmos Supervisionados
 
