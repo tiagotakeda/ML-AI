@@ -44,6 +44,7 @@ Sendo assim, um modelo de machine learning aprende os padrões dos dados e cria 
 
 ![Exemplo de função](https://miro.medium.com/max/1288/0*yylfN9osCM_tKhw_)
 </br>
+</br>
 
 
 ### Decision Tree
