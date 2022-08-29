@@ -17,7 +17,7 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 
 ### Regrssão Linear
 
-![Linear Regression](https://miro.medium.com/max/1400/1*JplJixyQxHTRwQvqP7eDrQ.gif)
+<center>![Linear Regression](https://miro.medium.com/max/1400/1*JplJixyQxHTRwQvqP7eDrQ.gif)</center>
 
 #### Origem
 
