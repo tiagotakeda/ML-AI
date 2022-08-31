@@ -66,9 +66,11 @@ Onde w0 (representa o ponto inicial da reta)e w1 (representa a inclinação da r
 
 ## Métricas de Validação
 
-### MAE (Erro Médio absoluto)
+Como toda estimativa tende a trazer consigo algum erro, nós podemos pensar em pelo menos três métricas para quantificá-lo.
 
-O erro médio absoluto (MAE) é a métrica de erro de regressão mais simples de entender. Ele calcula o valor dos resíduos para cada um dos pontos e depois é tirado a média de todos esses resíduos.
+### MAE - Erro Médio absoluto (Mean Absolute Error)
+
+O MAE é a métrica de erro de regressão mais simples de entender. Ele calcula o valor dos resíduos para cada um dos pontos e depois é tirado a média de todos esses resíduos.
 
 ![MAE](https://miro.medium.com/max/1400/0*nruMtzDtZjauyUQ7.jpg)
 
@@ -80,7 +82,7 @@ O MSE é apenas o cálculo do erro mas elevamos ao quadrado.
 
 ### SQR (Soma dos Quadrados dos Resíduos)
 
-Soma dos quadrados dos resíduos, mostra a variação de Y que não é explicada pelo modelo elaborado. É a medida da variação que não pode ser explicada.
+Soma dos quadrados dos resíduos, mostra a variação de Y que não é explicada pelo modelo elaborado.
 
 ![SQR](https://miro.medium.com/max/1400/1*YC_sAM5AZFmkNeol4BdynA.png)
 
@@ -88,5 +90,14 @@ O R² é uma medida estatística de quão próximos os dados estão da linha de 
 
 O R² está sempre entre 0 e 1:
 
-- indica que o modelo não explica nada da variabilidade dos dados de resposta ao redor de sua média.
-- indica que o modelo explica toda a variabilidade dos dados de resposta ao redor de sua média.
+- **0:** indica que o modelo não explica nada da variabilidade dos dados de resposta ao redor de sua média.
+- **1:** indica que o modelo explica toda a variabilidade dos dados de resposta ao redor de sua média.
+
+## Como calcular a reta de regressão?
+
+### Reta de Regressão
+![Reta de Regressão]('regressionLine.png')
+
+## Exemplos
+
+Neste diretório há dois arquivos em python que implementam dois modelos de regressão linear, um de regressão simples e outro de regressão múltipla.
