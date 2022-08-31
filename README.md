@@ -24,3 +24,9 @@ Para executar os exemplos deste respositório será necessário instalar as segu
 - pandas
 - statsmodels
 - plotly
+
+Para isso, é possível executar o comando abaixo:
+
+```
+pip install matplotlib numpy pandas statsmodels plotly
+```
