@@ -95,12 +95,17 @@ O R² está sempre entre 0 e 1:
 
 ## Como calcular a reta de regressão?
 
-### Reta de Regressão
+A equação da reta assemelha-se muito à uma reta  
+
 <img src="./images/regressionLine.png" alt="Reta de Regressão">
 
 Onde
 
 <img src="./images/coefs.png" alt="coeficientes">
+
+Com isso definimos o Alpha:
+
+<img src="./images/alpha.png" alt="alpha">
 
 ## Exemplos
 
