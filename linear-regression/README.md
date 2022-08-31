@@ -98,6 +98,10 @@ O R² está sempre entre 0 e 1:
 ### Reta de Regressão
 <img src="./images/regressionLine.png" alt="Reta de Regressão">
 
+Onde
+
+<img src="./images/coefs.png" alt="coeficientes">
+
 ## Exemplos
 
 Neste diretório há dois arquivos em python que implementam dois modelos de regressão linear, um de regressão simples e outro de regressão múltipla.
