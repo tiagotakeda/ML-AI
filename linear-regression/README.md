@@ -96,7 +96,7 @@ O R² está sempre entre 0 e 1:
 ## Como calcular a reta de regressão?
 
 ### Reta de Regressão
-![Reta de Regressão]('regressionLine.png')
+<img src="./images/regressionLine.png" alt="Reta de Regressão">
 
 ## Exemplos
 
