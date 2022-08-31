@@ -68,17 +68,36 @@ Onde w0 (representa o ponto inicial da reta)e w1 (representa a inclinação da r
 
 A equação da reta assemelha-se muito à uma reta  
 
-<img src="./images/regressionLine.png" alt="Reta de Regressão">
+$\begin{equation}
+    y = \alpha \cdot x + \beta + erro
+\end{equation}$
+
+<!-- <img src="./images/regressionLine.png" alt="Reta de Regressão"> -->
 
 Onde
 
-<img src="./images/coefs.png" alt="coeficientes">
+$\alpha : coeficiente \space dependente$
+
+$\beta : coeficiente \space independente$
+
+<!-- <img src="./images/coefs.png" alt="coeficientes"> -->
 
 Com isso definimos o Alpha e o Beta:
 
-<img src="./images/alpha.png" alt="alpha">
+$
+\begin{equation}
+    \alpha = \frac{n\sum x_i \cdot y_i - \sum x_i \cdot \sum y_i}{n \sum {x_i}^2 - (\sum x_i)^2} 
+\end{equation}
+$
+$
+\begin{equation}
+    \beta = \bar{y} - \alpha \bar{x}
+\end{equation}
+$
 
-<img src="./images/beta.png" alt="beta">
+<!-- <img src="./images/alpha.png" alt="alpha"> -->
+
+<!-- <img src="./images/beta.png" alt="beta"> -->
 
 ## Métricas de Validação
 
@@ -108,7 +127,6 @@ O R² está sempre entre 0 e 1:
 
 - **0:** indica que o modelo não explica nada da variabilidade dos dados de resposta ao redor de sua média.
 - **1:** indica que o modelo explica toda a variabilidade dos dados de resposta ao redor de sua média.
-
 
 
 ## Exemplos
