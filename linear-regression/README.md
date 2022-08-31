@@ -64,7 +64,7 @@ O objetivo da regressão linear é encontrar uma reta que consiga definir bem os
 
 Onde w0 (representa o ponto inicial da reta)e w1 (representa a inclinação da reta, ou seja, o quanto que essa variável cresce conforme o tempo passa) são variáveis que o algoritmo calcula para poder definir a reta, e x1 seria o atributo de entrada que foi dada ao modelo.
 
-## Como calcular a reta de regressão?
+## Como calcular a reta de regressão simples?
 
 A equação da reta assemelha-se muito à uma reta  
 
