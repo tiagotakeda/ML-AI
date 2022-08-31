@@ -68,23 +68,23 @@ Onde w0 (representa o ponto inicial da reta)e w1 (representa a inclinação da r
 
 A equação da reta assemelha-se muito à uma reta  
 
-$\begin{equation}
+<!-- $\begin{equation}
     y = \alpha \cdot x + \beta + erro
-\end{equation}$
+\end{equation}$ -->
 
-<!-- <img src="./images/regressionLine.png" alt="Reta de Regressão"> -->
+<img src="./images/regressionLine.png" alt="Reta de Regressão">
 
 Onde
 
-$\alpha : coeficiente \space dependente$
+<!-- $\alpha : coeficiente \space dependente$
 
-$\beta : coeficiente \space independente$
+$\beta : coeficiente \space independente$ -->
 
-<!-- <img src="./images/coefs.png" alt="coeficientes"> -->
+<img src="./images/coefs.png" alt="coeficientes">
 
 Com isso definimos o Alpha e o Beta:
 
-$
+<!-- $
 \begin{equation}
     \alpha = \frac{n\sum x_i \cdot y_i - \sum x_i \cdot \sum y_i}{n \sum {x_i}^2 - (\sum x_i)^2} 
 \end{equation}
@@ -93,11 +93,11 @@ $
 \begin{equation}
     \beta = \bar{y} - \alpha \bar{x}
 \end{equation}
-$
+$ -->
 
-<!-- <img src="./images/alpha.png" alt="alpha"> -->
+<img src="./images/alpha.png" alt="alpha">
 
-<!-- <img src="./images/beta.png" alt="beta"> -->
+<img src="./images/beta.png" alt="beta">
 
 ## Métricas de Validação
 
