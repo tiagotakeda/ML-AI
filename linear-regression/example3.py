@@ -1,8 +1,10 @@
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+import statsmodels.api as sm
 import numpy as np
 import pandas as pd
+from createGrid import createGrid
 
 # Até então vimos as regressões que continham uma única variável independente e,
 # embora elas de fato sejam bastantes úteis, não são raros os casos mais
@@ -25,52 +27,6 @@ import pandas as pd
 # Dando início ao procedimento, atualizaremos nossos dados:
 
 
-def create_grid(func, x, y, size):
-    """
-    Gera um espaço bidimensional delimitado pelos valores extremos de 'x' e 'y', 
-    ao qual aplica uma função 'func' de duas variáveis para criar um grid de 
-    tamanho 'size' x 'size'. 
-
-    Recebe:
-      * func (function): função aplicada a cada par ordenado do espaço.
-      * x (pd.Series): abscissas aplicáveis à função.
-      * y (pd.Series): ordenadas aplicáveis à funcão.
-      * size (int): dimensão do grid, maior ou igual a 2.
-
-    Retorna:
-      * cordinates (tuple): tupla de três posições que contém a
-                            correspondência (x,y,z) para 'func'.
-    """
-
-    # Obtém valores extremos
-    x_max, x_min = np.max(x), np.min(x)
-    y_max, y_min = np.max(y), np.min(y)
-
-    # Cria espaço bidimensional
-    x_cord = np.linspace(x_min, x_max, size)
-    y_cord = np.linspace(y_min, y_max, size)
-
-    grid = {}
-    counter = 0
-
-    # Aplica a função a cada par ordenado do espaço
-    for x in x_cord:
-        row = []
-        for y in y_cord:
-            z = func(x, y)
-            row.append(z)
-
-        grid[counter] = row
-        counter += 1
-
-    z_data = pd.DataFrame(grid)
-    z_cord = z_data.values
-
-    cordinates = (x_cord, y_cord, z_cord)
-
-    return cordinates
-
-
 def main():
     data2 = {
         'S': [34.35, 34.67, 34.80, 34.72, 34.88, 34.98, 35.20, 35.00, 35.10, 35.19,
@@ -81,10 +37,53 @@ def main():
               2600, 2750, 2900, 3050, 3200, 3350, 3500, 3650, 3800, 3950],
     }
 
-    fig = px.scatter_3d(data2, x='S', y='T', z='h', color='h')
+    df2 = pd.DataFrame(data2)
+    # print(df2.head())
+
+    # Seleciona todas as linhas das colunas 'S' e 'T'
+    indep_plano = df2.loc[:, ['S', 'T']]
+    # print(indep_plano.head())
+
+    # Adiciona uma coluna 'const' à direita do DataFrame original
+    indep_plano = sm.add_constant(indep_plano, prepend=False)
+    # print(indep_plano.head())
+
+    dep_plano = df2['h']  # Variável dependente
+
+    # Define o modelo de regressão linear
+    modelo_plano = sm.OLS(dep_plano, indep_plano, hasconst=True)
+    # Ajusta a reta aos dados, retornando diversos resultados
+    resultados_plano = modelo_plano.fit()
+
+    # Unpack dos coeficientes do plano
+    a_plano, b_plano, c_plano = resultados_plano.params
+
+    # Imprime coeficientes
+    print(
+        f"Coeficientes do plano:\n\na: {a_plano}\nb: {b_plano}\nc: {c_plano}")
+
+    # Define a equação do plano
+    def h(S, T): return a_plano*S + b_plano*T + c_plano
+
+    # Obtém os dados necessários para desenhar o plano
+    x_plano, y_plano, z_plano = createGrid(h, df2['S'], df2['T'], 20)
+
+    # Plota o plano (superfície)
+    fig = go.Figure(data=[go.Surface(
+        z=z_plano, x=x_plano, y=y_plano,
+        colorbar=dict(title='Profundidade'),
+        colorscale='Viridis',
+        opacity=0.8
+    )])
+
+    # Adiciona os pontos (gráfico de dispersão)
+    fig.add_scatter3d(
+        x=df2['S'], y=df2['T'], z=df2['h'],
+        marker=dict(size=6.5, color='crimson'),
+        mode="markers",
+    )
 
     # Customizações do gráfico
-    fig.layout.coloraxis.colorbar.title = 'Profundidade'
     fig.update_layout(
         title='Salinade e temperatura oceânicas pela profundidade',
         width=600, height=600,
@@ -93,10 +92,27 @@ def main():
             xaxis_title='Salinidade (g/kg)',
             yaxis_title='Temperatura (°C)',
             zaxis_title='Profundidade (m)'
-        ),
+        )
     )
 
     fig.show()
+
+    # fig = px.scatter_3d(data2, x='S', y='T', z='h', color='h')
+
+    # # Customizações do gráfico
+    # fig.layout.coloraxis.colorbar.title = 'Profundidade'
+    # fig.update_layout(
+    #     title='Salinade e temperatura oceânicas pela profundidade',
+    #     width=600, height=600,
+    #     margin=dict(l=40, r=40, b=40, t=40),
+    #     scene=dict(
+    #         xaxis_title='Salinidade (g/kg)',
+    #         yaxis_title='Temperatura (°C)',
+    #         zaxis_title='Profundidade (m)'
+    #     ),
+    # )
+
+    # fig.show()
 
 
 main()

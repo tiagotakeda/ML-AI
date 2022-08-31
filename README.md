@@ -14,3 +14,13 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 - SVM (Support Vector Machine)
 - KNN (K Nearest Neighbor)
 - Naive Bayes
+
+### Observações
+
+Para executar os exemplos deste respositório será necessário instalar as seguintes dependências:
+
+- matplotlib
+- numpy
+- pandas
+- statsmodels
+- plotly
