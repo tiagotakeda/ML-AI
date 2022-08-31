@@ -15,6 +15,12 @@ Infelizmente, é impossível analisarmos todos os algoritmos destas áreas de um
 - KNN (K Nearest Neighbor)
 - Naive Bayes
 
+### Timeline
+
+A imagem abaixo ilustra de forma resumida os eventos mais relevantes de pesquisa e aplicações de AI e Machine Learning.
+
+[Machine Learning Timeline](https://cdn.ttgtmedia.com/rms/onlineimages/whatis-machine_learning_timeline-i.png)
+
 ### Observações
 
 Para executar os exemplos deste respositório será necessário instalar as seguintes dependências:
