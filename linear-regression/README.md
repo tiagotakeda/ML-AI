@@ -64,6 +64,22 @@ O objetivo da regressão linear é encontrar uma reta que consiga definir bem os
 
 Onde w0 (representa o ponto inicial da reta)e w1 (representa a inclinação da reta, ou seja, o quanto que essa variável cresce conforme o tempo passa) são variáveis que o algoritmo calcula para poder definir a reta, e x1 seria o atributo de entrada que foi dada ao modelo.
 
+## Como calcular a reta de regressão?
+
+A equação da reta assemelha-se muito à uma reta  
+
+<img src="./images/regressionLine.png" alt="Reta de Regressão">
+
+Onde
+
+<img src="./images/coefs.png" alt="coeficientes">
+
+Com isso definimos o Alpha e o Beta:
+
+<img src="./images/alpha.png" alt="alpha">
+
+<img src="./images/beta.png" alt="beta">
+
 ## Métricas de Validação
 
 Como toda estimativa tende a trazer consigo algum erro, nós podemos pensar em pelo menos três métricas para quantificá-lo.
@@ -93,19 +109,7 @@ O R² está sempre entre 0 e 1:
 - **0:** indica que o modelo não explica nada da variabilidade dos dados de resposta ao redor de sua média.
 - **1:** indica que o modelo explica toda a variabilidade dos dados de resposta ao redor de sua média.
 
-## Como calcular a reta de regressão?
 
-A equação da reta assemelha-se muito à uma reta  
-
-<img src="./images/regressionLine.png" alt="Reta de Regressão">
-
-Onde
-
-<img src="./images/coefs.png" alt="coeficientes">
-
-Com isso definimos o Alpha:
-
-<img src="./images/alpha.png" alt="alpha">
 
 ## Exemplos
 
